@@ -1,0 +1,14 @@
+
+<view id="chat_board">
+      <text>도드의 채팅창에 오신것을 환영합니다.</text>
+      <textarea value="{{data}}"></textarea>
+		</view>
+	
+		<view>
+			<input id="name" value="{{nickname}}"></input>
+			<button id="idset">닉네임 설정/수정</button>
+		</view>
+
+		<input id="chatc" type="text"></input>
+		<button id="enter">입력</button>
+		
