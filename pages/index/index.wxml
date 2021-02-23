@@ -11,4 +11,9 @@
 
 		<input id="chatc" type="text"></input>
 		<button id="enter">입력</button>
+
+		<view class="section">
+  		<view class="item-title">wx.reLaunch()</view>
+  		<button bindtap="reLaunch">page2</button>
+		</view>
 		
