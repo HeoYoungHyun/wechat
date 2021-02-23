@@ -51,5 +51,13 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+  reLaunch() {
+    wx.reLaunch({
+      url: '/pages/page2/page2',
+      success() {},
+      fail() {},
+      complete() {},
+    })
+  },
 })

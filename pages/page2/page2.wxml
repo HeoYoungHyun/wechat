@@ -1,0 +1,4 @@
+<view class="section">
+  <view class="item-title">Modal</view>
+  <button bindtap="showModal">showModal</button>
+</view>
