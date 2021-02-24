@@ -1,7 +1,7 @@
 Page({
 
   data: {
-   
+   name:"aaa",
 
   },
 
@@ -22,12 +22,12 @@ Page({
   },
   request() {
     var that = this;
-    var test_server = 'http://localhost:8800/restTest';
+    var test_server = 'http://localhost:8800/restTest?';
 
     wx.request({
       url: test_server,
       data: {
-        str: this.data.product.id,
+        str: "aaa",
       },
       header: {
         'content-type': 'application/json' // Default value
