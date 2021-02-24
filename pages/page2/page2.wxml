@@ -2,3 +2,7 @@
   <view class="item-title">Modal</view>
   <button bindtap="showModal">showModal</button>
 </view>
+<view class="section">
+  <view class="item-title">Request</view>
+  <button bindtap="request">request</button>
+</view>
